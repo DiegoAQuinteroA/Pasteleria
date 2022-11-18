@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOUCE</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>DOUCE</h1>
+    </header>
+
+    <nav>
+        <h2>Menu</h2>
+        <h2>Adornos</h2>
+        <h2>Ubicacion</h2>
+        <h2>Pedidos</h2>
+    </nav>
+    
+    <img src="./image/douce_logo.png" alt="logo de la pasteleria">
+
+    <h2>Menu</h2>
+    <h3>Sabores para el bizcocho del Pastel</h3>
+    <p>Un pan de buena consistencia y sabor agradable</p>
+
+    <ul>
+        <li>Pan de Vainilla........ $30</li>
+        <li>Pan de Limón........... $30</li>
+        <li>Pan de Chocolate....... $30</li>
+        <li>Pan de Naranja......... $30</li>
+        <li>Pan de Zanahoria....... $30</li>
+        <li>Pan de Plátano......... $30</li>
+        <li>Pan de Fresa........... $30</li>
+    </ul>
+
+    <h3>Coberturas para el Pastel</h3>
+    <p>Un buen sabor de boca</p>
+
+    <ul>
+        <li>Chocolate blanco....... $15</li>
+        <li>Almedras............... $15</li>
+        <li>Vainilla............... $15</li>
+        <li>Frutos rojos........... $15</li>
+        <li>Limón.................. $15</li>
+    </ul>
+
+    <h2>Adornos</h2>
+
+    <h3>Cumpleaños</h3>
+    <ul>
+        <li>velas de numeros .............. $15</li>
+        <li>velas pirotecnicas.............. $15</li>
+        <li>mensaje en el pastel .............. $15</li>
+    </ul>
+
+    <h3>Boda</h3>
+    <ul>
+        <li>muñecos de boda .............. $15</li>
+        <li>flores .............. $15</li>
+        <li>carta con mensaje .............. $15</li>
+    </ul>
+
+    <h3>reunion comun</h3>
+    <ul>
+        <li>Adorno 1 .............. $15</li>
+        <li>Adorno 2 .............. $15</li>
+        <li>Adorno 3 .............. $15</li>
+    </ul>
+
+    <h2>Ubicacion</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicacion</th>
+            <th>Horarios</th>
+            <th>Telefono</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/gTYfwVpGdYmpJiHFA" target="_blank">Salchipapas La 20</a></td>
+            <td>24/7</td>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/nyynuJanq4W1LoDk9" target="_blank">Como en casa comidas caseras</a></td>
+            <td>24/7</td>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/tdnZTZNiFDQt39zf7" target="_blank">Pio Pio Bella Vista</a></td>
+            <td>24/7</td>
+            <td>1234567890</td>
+        </tr>
+    </table>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu Pedido aquí</h3>
+
+    <form action="">
+        <label for="nombre">Sú nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="¿Como te llamas?">
+        <br><br>
+        <label for="apellido">Sú apellido</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="¿Cual es tu apellido?">
+        <br><br>
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="¿Cual es tu telefono?">
+        <br><br>
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1" placeholder="¿Cual es tu E-mail?">
+        <br><br>
+        <label for="Direccion">Diereccion</label><br>
+        <input type="text" id="Direccion" name="Direccion" placeholder="¿Cual es tu Direccion?"><br>
+        <br>
+        <label for="descripcion">Descripcion</label><br>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Describe tu pastel!">
+        <br><br>
+
+        <p>¿De que pasteleria quieres?</p>
+        <select name="" id="">
+            <option value="Norte">Norte</option>
+            <option value="Centro">centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <h2>¡Arme su mejor pastel!</h2>
+
+        <h3>Sabor base</h3>
+
+        <input type="radio" name="Vainilla" id="Vainilla">
+        <label for="Vainilla">Pan de Vainilla</label>
+        <br>
+        <input type="radio" name="Limón" id="Limón">
+        <label for="Limón">Pan de Limón</label>
+        <br>
+        <input type="radio" name="Chocolate" id="Chocolate">
+        <label for="Chocolate">Pan de Chocolate</label>
+        <br>
+        <input type="radio" name="Naranja" id="Naranja">
+        <label for="Naranja">Pan de Naranja</label>
+        <br>
+        <input type="radio" name="Zanahoria" id="Zanahoria">
+        <label for="Zanahoria">Pan de Zanahoria</label>
+        <br>
+        <input type="radio" name="Plátano" id="Plátano">
+        <label for="Plátano">Pan de Plátano</label>
+        <br>
+        <input type="radio" name="Fresa" id="Fresa">
+        <label for="Fresa">Pan de Fresa</label>
+        <br>
+
+        <h3>Sabor Coberturas</h3>
+
+        <input type="checkbox" name="Chocolateblanco" id="Chocolateblanco">
+        <label for="Chocolateblanco">Chocolate blanco</label>
+        <br>
+        <input type="checkbox" name="Almedras" id="Almedras">
+        <label for="Almedras">Almedras</label>
+        <br>
+        <input type="checkbox" name="Vainilla" id="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <br>
+        <input type="checkbox" name="Frutosrojos" id="Frutosrojos">
+        <label for="Frutosrojos">Frutos rojos</label>
+        <br>
+        <input type="checkbox" name="Limón" id="Limón">
+        <label for="Limón">Limón</label>
+        <br>
+
+        <h3>Adornos</h3>
+        <p>elija los adornos que desee en su pastel</p>
+
+        <h4>Cumpleaños</h4>
+        <input type="checkbox" name="v_numeros" id="v-numeros">
+        <label for="v_numeros">velas de numeros</label>
+        <br>
+        <input type="checkbox" name="v_pirotecnicas" id="v_pirotecnicas">
+        <label for="v_pirotecnicas">velas pirotecnicas</label>
+        <br>
+        <input type="checkbox" name="mensaje" id="mensaje">
+        <label for="mensaje">mensaje en el pastel</label>
+        
+        <h4>boda</h4>
+        <input type="checkbox" name="muñecos" id="muñecos">
+        <label for="muñecos">muñecos de boda</label>
+        <br>
+        <input type="checkbox" name="flores" id="flores">
+        <label for="flores">flores</label>
+        <br>
+        <input type="checkbox" name="carta" id="carta">
+        <label for="carta">carta</label>
+
+        <h4>reucion comun</h4>
+        <input type="checkbox" name="adorno1" id="adorno1">
+        <label for="adorno1">adorno1</label>
+        <br>
+        <input type="checkbox" name="adorno2" id="adorno2">
+        <label for="adorno2">adorno2</label>
+        <br>
+        <input type="checkbox" name="adorno3" id="adorno3">
+        <label for="adorno3">adorno3</label>
+        <br><br>
+
+        <button type="submit">Hacer pedido</button>
+    </form>
+
+
+</body>
+</html>
